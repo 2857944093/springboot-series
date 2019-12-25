@@ -9,6 +9,7 @@
         <module>springboot-datasource</module>
         <module>springboot-api</module>
         <module>springboot-aop</module>
+        <module>springboot-generator</module>
     </modules>
 
     <parent>

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
  * @author zhikang.chen
  * @description
  * @date 2019/12/22 17:08
+ * redis操作工具类
  */
 @Component
 public class RedisUtils {
