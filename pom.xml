@@ -32,6 +32,7 @@
         <swagger.version>2.7.0</swagger.version>
         <commons.version>3.6</commons.version>
         <slf4j.version>1.7.25</slf4j.version>
+        <druid.version>1.1.13</druid.version>
     </properties>
 
     <dependencies>
@@ -41,6 +42,12 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->

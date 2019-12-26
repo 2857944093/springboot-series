@@ -30,13 +30,13 @@ gt:
       #主动开启多数据源
       multiDatasourceOpen: true
       datasource[0]:
-        dbName: second
+        dbName: db1
         driver-class-name: com.mysql.jdbc.Driver
         username: root
         password: 123456
         url: jdbc:mysql://106.15.180.75:3306/db2?characterEncoding=utf-8&useSSL=false
       datasource[1]:
-        dbName: third
+        dbName: db2
         driver-class-name: com.mysql.jdbc.Driver
         username: root
         password: 123456

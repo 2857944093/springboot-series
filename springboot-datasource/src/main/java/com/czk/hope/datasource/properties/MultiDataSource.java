@@ -1,4 +1,4 @@
-package com.czk.hope.datasource.config;
+package com.czk.hope.datasource.properties;
 
 import com.czk.hope.datasource.properties.DruidProperties;
 import lombok.Data;

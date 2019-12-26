@@ -1,5 +1,6 @@
 package com.czk.hope.api.service.impl;
 
+import com.czk.hope.aop.annotation.DataSource;
 import com.czk.hope.aop.annotation.RedisCleanCache;
 import com.czk.hope.aop.annotation.RedisJoinCache;
 import com.czk.hope.api.service.UserService;
@@ -20,6 +21,7 @@ import javax.annotation.Resource;
 public class UserServiceImpl extends CrudService<UserRepository, Users, Integer> implements UserService{
 
     @RedisJoinCache(type = Users.class)
+    @DataSource(name = "db1")
     @Override
     public Users queryById(Integer id) {
         return getById(id);

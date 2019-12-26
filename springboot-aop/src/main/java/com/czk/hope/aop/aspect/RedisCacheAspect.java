@@ -1,5 +1,6 @@
 package com.czk.hope.aop.aspect;
 
+import com.czk.hope.aop.annotation.DataSource;
 import com.czk.hope.aop.annotation.RedisCleanCache;
 import com.czk.hope.aop.annotation.RedisJoinCache;
 import com.czk.hope.util.redis.RedisUtils;
@@ -43,11 +44,10 @@ public class RedisCacheAspect {
         Object[] args = point.getArgs();
         //获取方法
         Method method = ((MethodSignature) point.getSignature()).getMethod();
-        //获取所指定的类类型
-        RedisJoinCache redisCache = method.getAnnotation(RedisJoinCache.class);
-        Class name = redisCache.type();
+        //数据源
+        DataSource dataSource = method.getAnnotation(DataSource.class);
         //获取key值
-        String key = genKey(clazzName, methodName, args);
+        String key = genKey(clazzName, methodName, dataSource.name(), args);
         //去缓存中查询
         String value = redisUtils.getMap(key);
         Object result = null;
@@ -86,11 +86,12 @@ public class RedisCacheAspect {
         //获取查询的方法名
         Method method =  ((MethodSignature) point.getSignature()).getMethod();
         RedisCleanCache redisCleanCache = method.getAnnotation(RedisCleanCache.class);
+        DataSource dataSource = method.getAnnotation(DataSource.class);
         String methodName = redisCleanCache.name();
         //获取参数
         Object[] args = point.getArgs();
         //获取key
-        String key = genKey(clazzName, methodName, args);
+        String key = genKey(clazzName, methodName, dataSource.name(), args);
         //查询该key是否存在
         String value = redisUtils.getMap(key);
         if (StringUtils.isBlank(value)) {
@@ -112,10 +113,12 @@ public class RedisCacheAspect {
      * @param args
      * @return java.lang.String
      */
-    protected String genKey(String clazzName, String methodName, Object[] args) {
+    protected String genKey(String clazzName, String methodName, String dbName, Object[] args) {
         StringBuilder sb = new StringBuilder(clazzName);
         sb.append(".");
         sb.append(methodName);
+        sb.append(".");
+        sb.append(dbName);
         sb.append(".");
         for (Object obj : args) {
             sb.append(obj.toString());

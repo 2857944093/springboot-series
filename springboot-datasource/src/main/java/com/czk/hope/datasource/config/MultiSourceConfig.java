@@ -2,6 +2,7 @@ package com.czk.hope.datasource.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.czk.hope.datasource.properties.DruidProperties;
+import com.czk.hope.datasource.properties.MultiDataSource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -35,7 +36,7 @@ public class MultiSourceConfig {
     @Bean
     @ConditionalOnProperty(name = "gt.maxzhao.boot.multiDatasourceOpen", havingValue = "false")
     public DruidDataSource singleDatasource() {
-        log.error("singleDatasource");
+        log.info("singleDatasource");
         return druidProperties.config(new DruidDataSource());
     }
 
@@ -45,7 +46,7 @@ public class MultiSourceConfig {
     @Bean
     @ConditionalOnProperty(name = "gt.maxzhao.boot.multiDatasourceOpen", havingValue = "true")
     public DynamicDataSource mutiDataSource() {
-        log.error("mutiDataSource");
+        log.info("mutiDataSource");
 
         //存储数据源别名与数据源的映射
         HashMap<Object, Object> dbNameMap = new HashMap<>();

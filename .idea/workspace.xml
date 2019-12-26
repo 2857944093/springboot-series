@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e6cc56-6a1d-4286-b0a8-df33713c5eaf" name="Default Changelist" comment="" />
+    <list default="true" id="c3e6cc56-6a1d-4286-b0a8-df33713c5eaf" name="Default Changelist" comment="代码生成器">
+      <change afterPath="$PROJECT_DIR$/springboot-api/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/DataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/DataSourceAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/annotation/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/annotation/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/aspect/DataSourceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/aspect/DataSourceAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/aspect/RedisCacheAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/aspect/RedisCacheAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-datasource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-datasource/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/MultiDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/properties/MultiDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/MultiSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/MultiSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-datasource/target/classes/com/czk/hope/datasource/config/MultiDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-datasource/target/classes/com/czk/hope/datasource/config/MultiSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-datasource/target/classes/com/czk/hope/datasource/config/MultiSourceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/response/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/response/R.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-util/target/" />
@@ -34,53 +61,56 @@
     <session id="-842531186">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="22" />
-          <entry key="java" value="160" />
-          <entry key="pom" value="1" />
+          <entry key="class" value="31" />
+          <entry key="java" value="222" />
+          <entry key="log" value="4" />
+          <entry key="pom" value="2" />
           <entry key="properties" value="2" />
           <entry key="sql" value="1" />
           <entry key="vm" value="18" />
-          <entry key="xml" value="48" />
-          <entry key="yml" value="11" />
+          <entry key="xml" value="67" />
+          <entry key="yml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="22" />
-          <entry key="JAVA" value="160" />
+          <entry key="CLASS" value="31" />
+          <entry key="JAVA" value="222" />
+          <entry key="Log" value="4" />
           <entry key="Properties" value="2" />
           <entry key="Scratch" value="1" />
           <entry key="VTL" value="18" />
-          <entry key="XML" value="49" />
-          <entry key="YAML" value="11" />
+          <entry key="XML" value="69" />
+          <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4054" />
+          <entry key="java" value="4525" />
           <entry key="properties" value="11" />
           <entry key="txt" value="18" />
           <entry key="vm" value="46" />
-          <entry key="xml" value="522" />
-          <entry key="yml" value="107" />
+          <entry key="xml" value="643" />
+          <entry key="yml" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4053" />
+          <entry key="JAVA" value="4524" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="Properties" value="11" />
           <entry key="SQL" value="1" />
           <entry key="VTL" value="46" />
-          <entry key="XML" value="522" />
-          <entry key="YAML" value="107" />
+          <entry key="XML" value="643" />
+          <entry key="YAML" value="119" />
         </counts>
       </usages-collector>
     </session>
@@ -90,11 +120,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/util/GenUtils.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="43" column="68" lean-forward="true" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+            <state relative-caret-position="252">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,57 +142,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/GeneratorService.java">
+        <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="57" />
+            <state relative-caret-position="378">
+              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/impl/GeneratorServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-api/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-datasource/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-aop/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -162,41 +160,64 @@
         <entry file="file://$PROJECT_DIR$/springboot-util/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="206">
+              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/repository/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/springboot-datasource/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-api/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-aop/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-api/src/test/java/com/czk/hope/api/service/impl/UserServiceImplTest.java">
+        <entry file="file://$PROJECT_DIR$/springboot-generator/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="42" column="87" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="87" />
+            <state relative-caret-position="357">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/controller/GeneratorController.java">
+        <entry file="file://$PROJECT_DIR$/springboot-entity/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-445">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -218,6 +239,7 @@
       <find>showNewGame</find>
       <find>Query</find>
       <find>nativeQuery</find>
+      <find>mutiDataSource</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -237,19 +259,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/model/UserInitWork.java" />
-        <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/init/InitWork.java" />
-        <option value="$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/model/Users.java" />
-        <option value="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/DataSourceAspect.java" />
-        <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/UserService.java" />
-        <option value="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/DataSource.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/properties/DruidProperties.java" />
         <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/MultiDataSource.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/DynamicDataSource.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/MultiSourceConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/controller/UserController.java" />
         <option value="$PROJECT_DIR$/springboot-generator/src/main/resources/template/Controller.java.vm" />
         <option value="$PROJECT_DIR$/springboot-generator/src/main/resources/template/menu.sql.vm" />
@@ -258,10 +269,8 @@
         <option value="$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/entity/ColumnEntity.java" />
         <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/entity/ColumnEntity.java" />
         <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/DateUtils.java" />
-        <option value="$PROJECT_DIR$/springboot-util/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/OkHttp3.java" />
         <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/swagger/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/response/R.java" />
         <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/redis/RedisUtils.java" />
         <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/jpa/CrudService.java" />
         <option value="$PROJECT_DIR$/springboot-api/src/main/resources/generator.properties" />
@@ -269,12 +278,9 @@
         <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/generator/GeneratorUtils.java" />
         <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/generator/entity/TableEntity.java" />
         <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/GeneratorController.java" />
-        <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/Application.java" />
-        <option value="$PROJECT_DIR$/springboot-api/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/springboot-api/src/main/resources/application-test.yml" />
         <option value="$PROJECT_DIR$/springboot-api/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/springboot-api/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-generator/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/entity/TableEntity.java" />
         <option value="$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/entity/ColumnEntity.java" />
         <option value="$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/config/BaseRepositoryImpl.java" />
@@ -283,11 +289,27 @@
         <option value="$PROJECT_DIR$/springboot-generator/src/main/resources/template/BaseRepositoryImpl.java.vm" />
         <option value="$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/util/GenUtils.java" />
         <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/controller/GeneratorController.java" />
-        <option value="$PROJECT_DIR$/springboot-api/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/GeneratorService.java" />
         <option value="$PROJECT_DIR$/springboot-api/src/test/java/com/czk/hope/api/service/impl/UserServiceImplTest.java" />
         <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/impl/GeneratorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/MultiSourceConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/UserService.java" />
+        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/properties/MultiDataSource.java" />
+        <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/response/R.java" />
+        <option value="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/DataSource.java" />
+        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/DynamicDataSource.java" />
+        <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/Application.java" />
+        <option value="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/DataSourceAspect.java" />
+        <option value="$PROJECT_DIR$/springboot-api/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java" />
+        <option value="$PROJECT_DIR$/springboot-util/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-api/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-aop/pom.xml" />
       </list>
     </option>
   </component>
@@ -311,44 +333,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-aop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-aop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-entity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-entity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-series" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-series" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -364,6 +349,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -371,12 +358,282 @@
               <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="swagger" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,10 +646,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577268548226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577340138633" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Tencent Files/2857944093/FileRecv/data-jpa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -413,9 +670,9 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\czk\myProject\springboot-series\springboot-api\src\main\resources" />
       <recent name="E:\czk\myProject\springboot-series\springboot-generator\src\main\java\com\czk\hope\generator\entity" />
       <recent name="E:\czk\myProject\springboot-series\springboot-generator\src\main\java\com\czk\hope\generator\util" />
-      <recent name="E:\czk\myProject\springboot-series\springboot-api\src\main\resources" />
       <recent name="E:\czk\myProject\springboot-series\springboot-util\src\main\java\com\czk\hope\util" />
       <recent name="E:\czk\myProject\springboot-series\springboot-entity\src\main\java\com\czk\hope\entity" />
     </key>
@@ -528,10 +785,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.UserServiceImplTest.queryById" />
         <item itemvalue="JUnit.UserServiceImplTest.queryTableAll" />
         <item itemvalue="JUnit.UserServiceImplTest.queryTable" />
         <item itemvalue="JUnit.UserServiceImplTest" />
-        <item itemvalue="JUnit.UserServiceImplTest.queryById" />
       </list>
     </recent_temporary>
   </component>
@@ -546,7 +803,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577155933761</updated>
       <workItem from="1577155936012" duration="20205000" />
-      <workItem from="1577180821379" duration="14574000" />
+      <workItem from="1577180821379" duration="24816000" />
+      <workItem from="1577337459077" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="代码生成器">
       <created>1577268487002</created>
@@ -559,42 +817,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceImplTest_queryById - 2019.12.24 at 16h 23m 22s.xml">
+    <history-entry file="UserServiceImplTest_queryById - 2019.12.26 at 09h 59m 16s.xml">
       <configuration name="UserServiceImplTest.queryById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest_queryTable - 2019.12.25 at 16h 35m 21s.xml">
-      <configuration name="UserServiceImplTest.queryTable" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_queryById - 2019.12.26 at 10h 09m 04s.xml">
+      <configuration name="UserServiceImplTest.queryById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest_queryTable - 2019.12.25 at 16h 48m 26s.xml">
-      <configuration name="UserServiceImplTest.queryTable" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_queryById - 2019.12.26 at 11h 22m 28s.xml">
+      <configuration name="UserServiceImplTest.queryById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest_queryTable - 2019.12.25 at 16h 51m 05s.xml">
-      <configuration name="UserServiceImplTest.queryTable" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_queryById - 2019.12.26 at 13h 22m 50s.xml">
+      <configuration name="UserServiceImplTest.queryById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest - 2019.12.25 at 17h 04m 02s.xml">
-      <configuration name="UserServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_queryTable - 2019.12.25 at 17h 05m 10s.xml">
-      <configuration name="UserServiceImplTest.queryTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_queryTable - 2019.12.25 at 17h 22m 37s.xml">
-      <configuration name="UserServiceImplTest.queryTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_queryTable - 2019.12.25 at 18h 00m 19s.xml">
-      <configuration name="UserServiceImplTest.queryTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_queryTable - 2019.12.25 at 18h 01m 22s.xml">
-      <configuration name="UserServiceImplTest.queryTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_queryTableAll - 2019.12.25 at 18h 05m 25s.xml">
+    <history-entry file="UserServiceImplTest_queryTableAll - 2019.12.26 at 13h 24m 19s.xml">
       <configuration name="UserServiceImplTest.queryTableAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_queryById - 2019.12.26 at 13h 28m 20s.xml">
+      <configuration name="UserServiceImplTest.queryById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_queryById - 2019.12.26 at 13h 29m 41s.xml">
+      <configuration name="UserServiceImplTest.queryById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_queryById - 2019.12.26 at 13h 31m 24s.xml">
+      <configuration name="UserServiceImplTest.queryById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_queryById - 2019.12.26 at 13h 34m 51s.xml">
+      <configuration name="UserServiceImplTest.queryById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_queryById - 2019.12.26 at 13h 38m 33s.xml">
+      <configuration name="UserServiceImplTest.queryById" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34779000" />
+    <option name="totallyTimeSpent" value="47659000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814814" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -607,17 +875,17 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3986637" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5545657" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40423164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44766146" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32850778" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32962137" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32962137" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -642,269 +910,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="代码生成器" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/swagger/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/response/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/redis/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/DataSourceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/generator/entity/ColumnEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/generator/GeneratorUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/generator/entity/TableEntity.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/OkHttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/util/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-entity/src/test/java/com/czk/hope/entity/repository/UserRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE.jar!/org/springframework/data/jpa/repository/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.10.Final/hibernate-core-5.3.10.Final.jar!/org/hibernate/engine/spi/SessionDelegatorBaseImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="442" column="5" lean-forward="true" selection-start-line="442" selection-start-column="5" selection-end-line="442" selection-end-column="5" />
-          <folding>
-            <element signature="e#15511#15512#0" expanded="true" />
-            <element signature="e#15572#15573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/EntityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/jpa/CrudService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/config/BaseRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/config/BaseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="103" lean-forward="true" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/repository/GeneratorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="3" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/entity/ColumnEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/entity/TableEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/resources/template/BaseRepositoryImpl.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/resources/template/BaseRepository.java.vm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/resources/template/Controller.java.vm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252" />
@@ -933,79 +938,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-aop/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-util/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/controller/GeneratorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-api/src/test/java/com/czk/hope/api/service/impl/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="42" column="87" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/GeneratorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="57" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,21 +949,332 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/util/GenUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="43" column="68" lean-forward="true" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.jar!/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/springboot-cache/com/czk/hope/cache/Main.class" />
+    <entry file="file://$PROJECT_DIR$/springboot-server/src/main/java/com/czk/hope/server/HopeApplication.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/OkHttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/swagger/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/response/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/RedisCleanCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/RedisJoinCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/properties/DruidProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/jpa/CrudService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/BeanWrapperImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="892" selection-start-line="892" selection-end-line="892" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/src/test/java/com/czk/hope/api/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="425" selection-start-line="425" selection-end-line="425" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.131/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="198" column="16" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/error.2019-12-26.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/info.2019-12-26.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-1995">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/controller/GeneratorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="24" column="75" lean-forward="true" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/properties/MultiDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/MultiSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1157">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#406#414#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/DataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="845">
+          <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/src/main/java/com/czk/hope/api/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+          <folding>
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-445">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-util/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-generator/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-entity/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-datasource/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-aop/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
         </state>
       </provider>
     </entry>

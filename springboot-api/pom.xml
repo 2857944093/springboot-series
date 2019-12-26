@@ -35,19 +35,19 @@
         <dependency>
             <groupId>com.czk.hope</groupId>
             <artifactId>springboot-generator</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.parent.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.czk.hope</groupId>
             <artifactId>springboot-datasource</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.parent.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.czk.hope</groupId>
             <artifactId>springboot-aop</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.parent.version}</version>
         </dependency>
 
         <dependency>

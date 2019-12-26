@@ -19,8 +19,8 @@
     <dependencies>
         <dependency>
             <groupId>com.czk.hope</groupId>
-            <artifactId>springboot-aop</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <artifactId>springboot-util</artifactId>
+            <version>${project.parent.version}</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
