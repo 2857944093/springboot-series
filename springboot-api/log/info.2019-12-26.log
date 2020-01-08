@@ -1,0 +1,316 @@
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 21720 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: dev
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 303ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc75329] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Started UserServiceImplTest in 35.18 seconds (JVM running for 38.48)
+设置数据源为：second
+Starting without optional epoll library
+Starting without optional kqueue library
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 23632 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: dev
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 209ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b7d3483] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Started UserServiceImplTest in 31.744 seconds (JVM running for 35.502)
+设置数据源为：second
+Starting without optional epoll library
+Starting without optional kqueue library
+清空数据源信息！
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 22116 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: dev
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 282ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a2e9ee6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Started UserServiceImplTest in 26.645 seconds (JVM running for 29.865)
+设置数据源为：second
+Starting without optional epoll library
+Starting without optional kqueue library
+清空数据源信息！
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 24796 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: dev
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 249ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0eadf73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Started UserServiceImplTest in 72.5 seconds (JVM running for 77.242)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 14948 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: dev
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 323ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e34e867] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Started UserServiceImplTest in 196.877 seconds (JVM running for 201.116)
+设置数据源为：second
+Starting without optional epoll library
+Starting without optional kqueue library
+清空数据源信息！
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 19808 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: dev
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 328ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$57786d58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Started UserServiceImplTest in 33.464 seconds (JVM running for 36.651)
+设置数据源为：second
+Starting without optional epoll library
+Starting without optional kqueue library
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 25284 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: dev
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 308ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d85108e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Started UserServiceImplTest in 27.564 seconds (JVM running for 30.978)
+设置数据源为：second
+Starting without optional epoll library
+Starting without optional kqueue library
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 22240 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: dev
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 275ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4371f497] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Started UserServiceImplTest in 28.89 seconds (JVM running for 32.476)
+设置数据源为：second
+Starting without optional epoll library
+Starting without optional kqueue library
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 11324 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: dev
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 281ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6084263d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Started UserServiceImplTest in 29.863 seconds (JVM running for 33.036)
+设置数据源为：second
+Starting without optional epoll library
+Starting without optional kqueue library
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'

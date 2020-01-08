@@ -9,25 +9,24 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot-aop</artifactId>
-
+    <artifactId>springboot-blockchain</artifactId>
     <properties>
-
+        <web3j.version>4.2.0</web3j.version>
     </properties>
 
+
     <dependencies>
-
-        <dependency>
-            <groupId>com.czk.hope</groupId>
-            <artifactId>springboot-datasource</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>com.czk.hope</groupId>
             <artifactId>springboot-util</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
-    </dependencies>
 
+        <dependency>
+            <groupId>org.web3j</groupId>
+            <artifactId>core</artifactId>
+            <version>${web3j.version}</version>
+        </dependency>
+
+    </dependencies>
 </project>

@@ -10,6 +10,7 @@
         <module>springboot-api</module>
         <module>springboot-aop</module>
         <module>springboot-generator</module>
+        <module>springboot-blockchain</module>
     </modules>
 
     <parent>
