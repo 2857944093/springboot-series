@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author zhikang.chen
  * @description
@@ -26,9 +28,17 @@ public class RedisUtils {
     }
 
     /**
+     * 设置过期时间
+     * @param key
+     */
+    public void expire(String key) {
+        template.expire(key,1, TimeUnit.MINUTES);
+    }
+
+    /**
      * 根据key获取
      * @param key
-     * @return
+     * @return value
      */
     public String getMap(String key) {
         return template.opsForValue().get(key);

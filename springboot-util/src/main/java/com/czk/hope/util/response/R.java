@@ -1,5 +1,6 @@
 package com.czk.hope.util.response;
 
+import com.czk.hope.util.enums.ResultEnum;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.Data;
 import org.springframework.stereotype.Component;
@@ -42,6 +43,10 @@ public class R<T> {
 
     public static <T> R error(T data) {
         return error(-1, "error", data);
+    }
+
+    public static R error(ResultEnum resultEnum) {
+        return error(resultEnum.getCode(), resultEnum.getMsg());
     }
 
     public static R error(Integer code, String msg) {

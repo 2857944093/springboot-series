@@ -12,4 +12,6 @@ public interface UserService {
     Users queryById(Integer id);
 
     void delById(Integer id);
+
+    void saveUser(Users user);
 }

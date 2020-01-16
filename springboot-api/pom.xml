@@ -31,6 +31,11 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>com.czk.hope</groupId>
+            <artifactId>springboot-blockchain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>com.czk.hope</groupId>

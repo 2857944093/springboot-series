@@ -13,7 +13,7 @@ import javax.persistence.*;
 @Proxy(lazy = false)
 @Entity
 public class Users {
-    private int id;
+    private Integer id;
     private String name;
     private String sex;
     private int age;
@@ -21,11 +21,11 @@ public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

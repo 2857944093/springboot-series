@@ -1,8 +1,17 @@
 package com.czk.hope.util;
 
+import com.aliyuncs.CommonRequest;
+import com.aliyuncs.CommonResponse;
+import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.IAcsClient;
+import com.aliyuncs.exceptions.ClientException;
+import com.aliyuncs.exceptions.ServerException;
+import com.aliyuncs.http.MethodType;
+import com.aliyuncs.profile.DefaultProfile;
 import okhttp3.*;
 
 import java.io.IOException;
+import java.util.Random;
 
 /**
  * @Author: Created by ChenZK
@@ -39,4 +48,5 @@ public class OkHttpUtils {
             return null;
         }
     }
+
 }

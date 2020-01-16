@@ -26,7 +26,7 @@ public class GeneratorController {
         byte[] data = generatorService.generatorCode();
 
         response.reset();
-        response.setHeader("Content-Disposition", "attachment; filename=\"renren.zip\"");
+        response.setHeader("Content-Disposition", "attachment; filename=\"czk.zip\"");
         response.addHeader("Content-Length", "" + data.length);
         response.setContentType("application/octet-stream; charset=UTF-8");
 

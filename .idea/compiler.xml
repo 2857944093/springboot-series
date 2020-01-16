@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-aop" />
         <module name="springboot-api" />
+        <module name="springboot-blockchain" />
         <module name="springboot-datasource" />
         <module name="springboot-entity" />
         <module name="springboot-generator" />
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel target="8">
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-api" target="8" />
+      <module name="springboot-blockchain" target="1.8" />
       <module name="springboot-datasource" target="1.8" />
       <module name="springboot-entity" target="1.8" />
       <module name="springboot-generator" target="1.8" />
