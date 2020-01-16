@@ -42,5 +42,5 @@ public class EthConstants {
     public static String getPrivateKeyUrl = "http://103.208.34.179:8089/collection/getprivatekey";
 
     /*---- 存放json私钥文件地址 ----*/
-    public static String privateKeyJsonFilePath = "E:\\czk\\ethwallet\\";
+    public static String privateKeyJsonFilePath = "D:\\wallet\\";
 }

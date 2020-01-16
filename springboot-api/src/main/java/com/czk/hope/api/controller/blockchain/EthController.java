@@ -2,7 +2,10 @@ package com.czk.hope.api.controller.blockchain;
 
 import com.czk.hope.blockchain.eth.EthConstants;
 import com.czk.hope.blockchain.eth.EthUtils;
+import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,27 +17,24 @@ import java.io.*;
  * @Author: Created by ChenZK
  * @Create: 2020/1/10 15:20
  */
-@RestController("/eth")
+@RestController
+@RequestMapping(path = "/eth")
 public class EthController {
 
     @RequestMapping("/create/account")
-    public void createAccount(HttpServletRequest request, @RequestParam String password) {
+    public ResponseEntity createAccount(HttpServletRequest request, @RequestParam String password) {
         String filePath = EthUtils.createAccount(password);
-        File file = new File(EthConstants.contractAccount + filePath);
-        byte[] body = null;
+        File file = new File(EthConstants.privateKeyJsonFilePath + filePath);
+        InputStreamResource resource = null;
         try {
-            InputStream is = new FileInputStream(file);
-            body = new byte[is.available()];
-            is.read(body);
-            HttpHeaders httpHeaders = new  HttpHeaders();
-            httpHeaders.add("Content-Disposition", "attchement;filename=" + file.getName());
+            resource = new InputStreamResource(new FileInputStream(file));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
-
-
+        return ResponseEntity.ok()
+                    .header(HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=" + file.getName())
+                    .contentType(MediaType.APPLICATION_PDF).contentLength(file.length())
+                    .body(resource);
     }
 
 }

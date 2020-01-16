@@ -31,7 +31,8 @@ public class RedisCacheAspect {
     private RedisUtils redisUtils;
 
     @Pointcut("@annotation(com.czk.hope.aop.annotation.RedisJoinCache)")
-    public void redisJoinCachePointcut() {}
+    public void redisJoinCachePointcut() {
+    }
 
     @Around("redisJoinCachePointcut()")
     public Object redisJoinCacheAround(ProceedingJoinPoint point) throws Throwable {
@@ -46,8 +47,14 @@ public class RedisCacheAspect {
         Method method = ((MethodSignature) point.getSignature()).getMethod();
         //数据源
         DataSource dataSource = method.getAnnotation(DataSource.class);
+        String dbName;
+        if (dataSource == null) {
+            dbName = "main";
+        } else {
+            dbName = dataSource.name();
+        }
         //获取key值
-        String key = genKey(clazzName, methodName, dataSource.name(), args);
+        String key = genKey(clazzName, methodName, dbName, args);
         //去缓存中查询
         String value = redisUtils.getMap(key);
         Object result = null;
@@ -56,7 +63,7 @@ public class RedisCacheAspect {
             result = point.proceed(args);
             //序列化
             redisUtils.setMap(key, objectMapper.writeValueAsString(result));
-        }else {
+        } else {
             //获取被代理的方法的类型
             Class returnType = method.getReturnType();
             //缓存中有，直接返回，反序列化
@@ -77,14 +84,15 @@ public class RedisCacheAspect {
      * 根据id删除缓存中的数据
      */
     @Pointcut("@annotation(com.czk.hope.aop.annotation.RedisCleanCache)")
-    public void redisCleanCachePointCut() { }
+    public void redisCleanCachePointCut() {
+    }
 
     @Around("redisCleanCachePointCut()")
     public void redisDelHandler(ProceedingJoinPoint point) throws Throwable {
         //获取类路径
         String clazzName = point.getTarget().getClass().getName();
         //获取查询的方法名
-        Method method =  ((MethodSignature) point.getSignature()).getMethod();
+        Method method = ((MethodSignature) point.getSignature()).getMethod();
         RedisCleanCache redisCleanCache = method.getAnnotation(RedisCleanCache.class);
         DataSource dataSource = method.getAnnotation(DataSource.class);
         String methodName = redisCleanCache.name();
@@ -97,7 +105,7 @@ public class RedisCacheAspect {
         if (StringUtils.isBlank(value)) {
             //调用方法从数据库中删除数据
             point.proceed(args);
-        }else {
+        } else {
             //根据key删除缓存中的数据
             redisUtils.delMap(key);
             //调用方法从数据库中删除数据
