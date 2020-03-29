@@ -2,151 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e6cc56-6a1d-4286-b0a8-df33713c5eaf" name="Default Changelist" comment="数据源和缓存冲突问题">
-      <change afterPath="$PROJECT_DIR$/springboot-aop/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-aop/src/main/test/com/czk/hope/aop/aspect/RedisCacheAspectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-aop/src/main/test/com/czk/hope/aop/service/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-aop/src/main/test/com/czk/hope/aop/service/HelloImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-aop/src/main/test/com/czk/hope/aop/test/ProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-aop/src/main/test/com/czk/hope/aop/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-api/src/main/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-blockchain/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-datasource/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/AdapterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/compute/AdapterCompute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/compute/Compute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/duck/AdapterTurkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/duck/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/duck/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/duck/Turkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/duck/WildTurkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/CommandDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/manufacturer/GarageDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/manufacturer/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/operation/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/operation/GarageDoorCloseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/operation/GarageDoorOpenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/operation/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/operation/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/operation/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/operation/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/command/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/DecoratorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/coffee/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/coffee/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/coffee/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/coffee/HouseBland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/flavour/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/flavour/Soy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/flavour/Whip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/FacadeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/HomeTheaterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/movie/Amplifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/movie/DvdPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/movie/PopcornPopper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/movie/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/movie/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/movie/TheaterLights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/factory/FactoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/iterator/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/ObserverDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/display/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/display/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/display/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/display/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/subject/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/subject/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/proxy/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/StateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/HasQUarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/WinnerState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/StartegyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/duck/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/duck/ModelDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/fly/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/fly/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/fly/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/quack/MuteQUack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/quack/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/quack/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/templatemethod/TemplateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/templatemethod/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/templatemethod/shop/CaffeineBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/templatemethod/shop/Coffe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/templatemethod/shop/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/test/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-generator/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/aspect/DataSourceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/aspect/DataSourceAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/aspect/RedisCacheAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/target/classes/com/czk/hope/aop/aspect/RedisCacheAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/application-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/controller/GeneratorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/controller/GeneratorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/GeneratorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/GeneratorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/impl/GeneratorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/impl/GeneratorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/classes/com/czk/hope/api/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-api/target/test-classes/com/czk/hope/api/service/impl/UserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-api/target/test-classes/com/czk/hope/api/service/impl/UserServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-blockchain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-blockchain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-blockchain/src/main/java/com/czk/hope/blockchain/btc/BtcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-blockchain/src/main/java/com/czk/hope/blockchain/btc/BtcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-blockchain/src/main/java/com/czk/hope/blockchain/eth/EthUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-blockchain/src/main/java/com/czk/hope/blockchain/eth/EthUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/target/classes/com/czk/hope/datasource/config/DynamicDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-datasource/target/classes/com/czk/hope/datasource/config/DynamicDataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/target/classes/com/czk/hope/datasource/config/MultiSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-datasource/target/classes/com/czk/hope/datasource/config/MultiSourceConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/target/classes/com/czk/hope/datasource/properties/DruidProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-datasource/target/classes/com/czk/hope/datasource/properties/DruidProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-entity/target/classes/com/czk/hope/entity/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-entity/target/classes/com/czk/hope/entity/model/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-entity/target/classes/com/czk/hope/entity/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-entity/target/classes/com/czk/hope/entity/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-generator/target/classes/com/czk/hope/generator/entity/ColumnEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-generator/target/classes/com/czk/hope/generator/entity/ColumnEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-generator/target/classes/com/czk/hope/generator/entity/TableEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-generator/target/classes/com/czk/hope/generator/entity/TableEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-generator/target/classes/com/czk/hope/generator/util/GenUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-generator/target/classes/com/czk/hope/generator/util/GenUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/SendSmsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/SendSmsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/DateUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/OkHttpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/OkHttpUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/jpa/CrudService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/jpa/CrudService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/redis/RedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/redis/RedisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/response/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-util/target/classes/com/czk/hope/util/response/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/下载 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -298,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/FacadeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -335,7 +193,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/SoldOutState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -344,7 +202,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/SoldState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
-              <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -353,7 +211,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/HasQUarterState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
-              <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
               <folding>
                 <element signature="e#358#359#0" expanded="true" />
                 <element signature="e#404#405#0" expanded="true" />
@@ -376,7 +234,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+                <caret column="5" selection-start-column="5" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -404,7 +262,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/State.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -662,7 +520,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585454649953" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585454974604" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../blockchain_study-master" />
@@ -836,7 +694,7 @@
       <workItem from="1583390443033" duration="2682000" />
       <workItem from="1584001457915" duration="227000" />
       <workItem from="1584682592691" duration="10546000" />
-      <workItem from="1585120035053" duration="32774000" />
+      <workItem from="1585120035053" duration="33064000" />
     </task>
     <task id="LOCAL-00001" summary="代码生成器">
       <created>1577268487002</created>
@@ -902,7 +760,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185335000" />
+    <option name="totallyTimeSpent" value="185625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -914,7 +772,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="0" y="0" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814814" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -927,7 +786,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.55011135" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55011135" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36636972" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1399,14 +1258,14 @@
     <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/FacadeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/State.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1420,7 +1279,7 @@
     <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/SoldState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1444,14 +1303,14 @@
     <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/SoldOutState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/status/machine/HasQUarterState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
-          <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
           <folding>
             <element signature="e#358#359#0" expanded="true" />
             <element signature="e#404#405#0" expanded="true" />
@@ -1485,7 +1344,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <caret column="5" selection-start-column="5" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
