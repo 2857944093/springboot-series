@@ -21,14 +21,14 @@ spring:
     host: 106.15.180.75
     port: 6379
 server:
-  port: 80
+  port: 8080
   servlet:
     context-path: /series
 gt:
   maxzhao:
     boot:
       #主动开启多数据源
-      multiDatasourceOpen: true
+      multiDatasourceOpen: false
       datasource[0]:
         dbName: second
         driver-class-name: com.mysql.jdbc.Driver
@@ -44,6 +44,6 @@ gt:
 alibaba:
   sendsms:
     SignName: 码农
-    AccessKeyID: LTAI4FmM2EV2r854mbvTyMys
-    AccessKeySecret: wJg8tZJLouMEJ5k29Pjcmr79FKPyS7
+    AccessKeyID: LTAI4Fnb2iMdRuTEWmW8FjGg
+    AccessKeySecret: WpMSSPD5bkQSAif420QTqfYF6DwUoX
     TemplateCode: SMS_163625310

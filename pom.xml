@@ -11,6 +11,7 @@
         <module>springboot-aop</module>
         <module>springboot-generator</module>
         <module>springboot-blockchain</module>
+        <module>springboot-designmode</module>
     </modules>
 
     <parent>

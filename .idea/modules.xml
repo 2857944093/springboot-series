@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-api/springboot-api.iml" filepath="$PROJECT_DIR$/springboot-api/springboot-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-blockchain/springboot-blockchain.iml" filepath="$PROJECT_DIR$/springboot-blockchain/springboot-blockchain.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-datasource/springboot-datasource.iml" filepath="$PROJECT_DIR$/springboot-datasource/springboot-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-designmode/springboot-designmode.iml" filepath="$PROJECT_DIR$/springboot-designmode/springboot-designmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-entity/springboot-entity.iml" filepath="$PROJECT_DIR$/springboot-entity/springboot-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-generator/springboot-generator.iml" filepath="$PROJECT_DIR$/springboot-generator/springboot-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-series.iml" filepath="$PROJECT_DIR$/springboot-series.iml" />

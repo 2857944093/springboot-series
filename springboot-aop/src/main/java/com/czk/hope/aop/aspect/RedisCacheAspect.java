@@ -95,11 +95,17 @@ public class RedisCacheAspect {
         Method method = ((MethodSignature) point.getSignature()).getMethod();
         RedisCleanCache redisCleanCache = method.getAnnotation(RedisCleanCache.class);
         DataSource dataSource = method.getAnnotation(DataSource.class);
+        String dbName;
+        if (dataSource == null) {
+            dbName = "main";
+        } else {
+            dbName = dataSource.name();
+        }
         String methodName = redisCleanCache.name();
         //获取参数
         Object[] args = point.getArgs();
         //获取key
-        String key = genKey(clazzName, methodName, dataSource.name(), args);
+        String key = genKey(clazzName, methodName, dbName, args);
         //查询该key是否存在
         String value = redisUtils.getMap(key);
         if (StringUtils.isBlank(value)) {

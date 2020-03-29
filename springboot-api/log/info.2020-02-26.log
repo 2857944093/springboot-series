@@ -1,0 +1,35 @@
+Starting UserServiceImplTest on DESKTOP-QHEKKM1 with PID 20416 (started by Kobe in E:\czk\myProject\springboot-series\springboot-api)
+The following profiles are active: prod
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 450ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc53dd1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+mutiDataSource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getCodeUsingPOST_1
+Started UserServiceImplTest in 26.765 seconds (JVM running for 28.183)
+Starting without optional epoll library
+Starting without optional kqueue library
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'

@@ -8,7 +8,6 @@ import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.http.MethodType;
 import com.aliyuncs.profile.DefaultProfile;
-import com.sun.xml.internal.messaging.saaj.soap.SOAPVersionMismatchException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -27,7 +26,7 @@ public class SendSmsUtils {
     @Autowired
     private SendSmsConfig sendSmsConfig;
 
-    public String   getCode() {
+    public String getCode() {
         Random random = new Random();
         return String.valueOf(random.nextInt(1000000));
     }
@@ -35,7 +34,6 @@ public class SendSmsUtils {
     public void sendSms(String phone, String code) {
         DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", sendSmsConfig.getAccessKeyID(), sendSmsConfig.getAccessKeySecret());
         IAcsClient client = new DefaultAcsClient(profile);
-        Random random = new Random();
 
         CommonRequest request = new CommonRequest();
         request.setMethod(MethodType.POST);
@@ -46,7 +44,7 @@ public class SendSmsUtils {
         request.putQueryParameter("PhoneNumbers", phone);
         request.putQueryParameter("SignName", sendSmsConfig.getSignName());
         request.putQueryParameter("TemplateCode", sendSmsConfig.getTemplateCode());
-        request.putQueryParameter("TemplateParam", "{\"code\": " + code +"}");
+        request.putQueryParameter("TemplateParam", "{\"code\": " + code + "}");
         try {
             CommonResponse response = client.getCommonResponse(request);
             log.info("response: {}", response.getData());
@@ -55,6 +53,11 @@ public class SendSmsUtils {
         } catch (ClientException e) {
             e.printStackTrace();
         }
+    }
+
+    public static void main(String[] args) {
+        SendSmsUtils sendSmsUtils = new SendSmsUtils();
+        sendSmsUtils.sendSms("18711432261", "123456");
     }
 
 }

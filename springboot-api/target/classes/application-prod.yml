@@ -21,7 +21,7 @@ spring:
     host: 106.15.180.75
     port: 6379
 server:
-  port: 80
+  port: 8080
   servlet:
     context-path: /series
 gt:
@@ -41,3 +41,9 @@ gt:
         username: root
         password: 123456
         url: jdbc:mysql://106.15.180.75:3306/db3?characterEncoding=utf-8&useSSL=false
+alibaba:
+  sendsms:
+    SignName: 码农
+    AccessKeyID: LTAI4Fnb2iMdRuTEWmW8FjGg
+    AccessKeySecret: WpMSSPD5bkQSAif420QTqfYF6DwUoX
+    TemplateCode: SMS_163625310

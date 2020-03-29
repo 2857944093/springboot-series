@@ -12,6 +12,7 @@
     <artifactId>springboot-blockchain</artifactId>
     <properties>
         <web3j.version>4.2.0</web3j.version>
+        <bitcoinj.version>0.14.7</bitcoinj.version>
     </properties>
 
 
@@ -27,6 +28,14 @@
             <artifactId>core</artifactId>
             <version>${web3j.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.bitcoinj/bitcoinj-core -->
+        <dependency>
+            <groupId>org.bitcoinj</groupId>
+            <artifactId>bitcoinj-core</artifactId>
+            <version>${bitcoinj.version}</version>
+        </dependency>
+
 
     </dependencies>
 </project>

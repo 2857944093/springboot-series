@@ -1,0 +1,43 @@
+Starting Application on DESKTOP-QHEKKM1 with PID 33356 (E:\czk\myProject\springboot-series\springboot-api\target\classes started by Kobe in E:\czk\myProject\springboot-series)
+The following profiles are active: dev
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 118ms. Found 1 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$573fd0c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.22]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5042 ms
+default 数据源加载
+加载多数据源配置信息  -->  gt.maxzhao.boot.datasource
+default 数据源加载
+default 数据源加载
+singleDatasource
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+LiveReload server is running on port 35729
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getCodeUsingPOST_1
+Starting ProtocolHandler ["http-nio-8088"]
+Tomcat started on port(s): 8088 (http) with context path '/series'
+Started Application in 17.619 seconds (JVM running for 20.693)

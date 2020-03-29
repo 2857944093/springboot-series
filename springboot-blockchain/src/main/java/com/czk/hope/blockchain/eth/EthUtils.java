@@ -29,7 +29,6 @@ import java.util.concurrent.ExecutionException;
  * @Author: Created by ChenZK
  * @Create: 2020/1/16 14:03
  * eth工具类
- * TODO 测试
  */
 @Component
 @Slf4j
