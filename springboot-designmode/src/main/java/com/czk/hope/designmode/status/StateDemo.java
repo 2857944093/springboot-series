@@ -1,5 +1,6 @@
 package com.czk.hope.designmode.status;
 
+
 import com.czk.hope.designmode.status.machine.GumballMachine;
 
 /**
