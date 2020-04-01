@@ -1,9 +1,8 @@
-package com.czk.hope.designmode.proxy.demo1.jdkproxy;
+package com.czk.hope.designmode.proxy.jdkproxy;
 
 import org.apache.commons.io.FileUtils;
 
 import javax.tools.JavaCompiler;
-import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
 import java.io.File;
@@ -32,7 +31,7 @@ public class MyProxy {
             "}";
         }
         String str =
-        "package com.czk.hope.designmode.proxy.demo1.jdkproxy;" + rt +
+        "package com.czk.hope.designmode.proxy.jdkproxy;" + rt +
         "import com.czk.hope.designmode.proxy.demo1.jdkproxy.MyInvocationHandler;" + rt +
         "import java.lang.reflect.Method;" + rt +
         "public class $Proxy0 implements "+ infce.getName() +" {" + rt +
@@ -44,7 +43,7 @@ public class MyProxy {
         methodStr + rt +
         "}";
 
-        String fileName = System.getProperty("user.dir")+"/springboot-designmode/com/czk/hope/designmode/bin/$Proxy.java";
+        String fileName = System.getProperty("user.dir")+"/springboot-designmode/src/main/java/com/czk/hope/designmode/proxy/jdkproxy/$Proxy0.java";
         File file = new File(fileName);
         FileUtils.writeStringToFile(file, str);
 
@@ -56,7 +55,7 @@ public class MyProxy {
         fileManager.close();
 
         ClassLoader cl = ClassLoader.getSystemClassLoader();
-        Class c = cl.loadClass("com.czk.hope.designmode.proxy.demo1.jdkproxy.$Proxy0");
+        Class c = cl.loadClass("com.czk.hope.designmode.proxy.jdkproxy.$Proxy0");
 
         Constructor ctr = c.getConstructor(MyInvocationHandler.class);
 

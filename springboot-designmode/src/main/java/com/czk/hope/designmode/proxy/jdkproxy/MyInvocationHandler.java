@@ -1,4 +1,4 @@
-package com.czk.hope.designmode.proxy.demo1.jdkproxy;
+package com.czk.hope.designmode.proxy.jdkproxy;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

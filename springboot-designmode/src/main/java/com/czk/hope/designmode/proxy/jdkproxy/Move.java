@@ -1,4 +1,4 @@
-package com.czk.hope.designmode.proxy.demo1.jdkproxy;
+package com.czk.hope.designmode.proxy.jdkproxy;
 
 /**
  * @author zhikang.chen

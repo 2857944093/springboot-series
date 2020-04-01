@@ -28,7 +28,7 @@ gt:
   maxzhao:
     boot:
       #主动开启多数据源
-      multiDatasourceOpen: true
+      multiDatasourceOpen: false
       datasource[0]:
         dbName: second
         driver-class-name: com.mysql.jdbc.Driver

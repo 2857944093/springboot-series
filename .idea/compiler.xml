@@ -7,14 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-aop" />
-        <module name="springboot-api" />
-        <module name="springboot-blockchain" />
-        <module name="springboot-datasource" />
         <module name="springboot-designmode" />
         <module name="springboot-entity" />
+        <module name="springboot-datasource" />
         <module name="springboot-generator" />
+        <module name="springboot-api" />
+        <module name="springboot-aop" />
         <module name="springboot-util" />
+        <module name="springboot-blockchain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -28,5 +28,17 @@
       <module name="springboot-series" target="1.8" />
       <module name="springboot-util" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-aop" options="-parameters" />
+      <module name="springboot-api" options="-parameters" />
+      <module name="springboot-blockchain" options="-parameters" />
+      <module name="springboot-datasource" options="-parameters" />
+      <module name="springboot-designmode" options="-parameters" />
+      <module name="springboot-entity" options="-parameters" />
+      <module name="springboot-generator" options="-parameters" />
+      <module name="springboot-util" options="-parameters" />
+    </option>
   </component>
 </project>

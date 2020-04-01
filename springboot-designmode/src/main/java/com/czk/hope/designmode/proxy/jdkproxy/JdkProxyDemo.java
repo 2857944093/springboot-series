@@ -1,12 +1,7 @@
-package com.czk.hope.designmode.proxy.demo1;
-
-
-import com.czk.hope.designmode.proxy.demo1.jdkproxy.*;
+package com.czk.hope.designmode.proxy.jdkproxy;
 
 import java.io.IOException;
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Proxy;
 
 /**
  * @author zhikang.chen

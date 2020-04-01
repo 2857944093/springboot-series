@@ -1,6 +1,5 @@
-package com.czk.hope.designmode.proxy.demo1.jdkproxy;
+package com.czk.hope.designmode.proxy.jdkproxy;
 
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -17,11 +16,11 @@ public class MyHandler implements MyInvocationHandler {
     }
 
     public void befoer () {
-        System.out.println("begin");
+        System.out.println("begin------");
     }
 
     public void after() {
-        System.out.println("over");
+        System.out.println("over-------");
     }
 
     @Override
