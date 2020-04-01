@@ -9,27 +9,11 @@ import java.lang.reflect.Method;
  * @description
  * @date 2020/3/31 21:06
  */
-public class MyHandler implements InvocationHandler {
+public class MyHandler implements MyInvocationHandler {
     Object target;
 
     public MyHandler(Object target) {
         this.target = target;
-    }
-
-    /**
-     *
-     * @param proxy 被代理对象
-     * @param method 被代理对象的方法
-     * @param args 方法的参数
-     * @return
-     * @throws Throwable
-     */
-    @Override
-    public Object invoke(Object proxy, Method method, Object[] args) throws InvocationTargetException, IllegalAccessException {
-        befoer();
-        method.invoke(target);
-        after();
-        return null;
     }
 
     public void befoer () {
@@ -38,5 +22,12 @@ public class MyHandler implements InvocationHandler {
 
     public void after() {
         System.out.println("over");
+    }
+
+    @Override
+    public void invoke(Object o, Method me) throws InvocationTargetException, IllegalAccessException {
+        befoer();
+        me.invoke(target);
+        after();
     }
 }

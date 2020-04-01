@@ -1,13 +1,11 @@
 package com.czk.hope.designmode.proxy.demo1;
 
 
-import com.czk.hope.designmode.proxy.demo1.jdkproxy.Car;
-import com.czk.hope.designmode.proxy.demo1.jdkproxy.Move;
-import com.czk.hope.designmode.proxy.demo1.jdkproxy.MyHandler;
-import com.czk.hope.designmode.proxy.demo1.jdkproxy.MyProxy;
+import com.czk.hope.designmode.proxy.demo1.jdkproxy.*;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Proxy;
 
 /**
@@ -17,10 +15,13 @@ import java.lang.reflect.Proxy;
  * jdk动态代理
  */
 public class JdkProxyDemo {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
         /*Car car = new Car();
         Move move = (Move) Proxy.newProxyInstance(car.getClass().getClassLoader(), car.getClass().getInterfaces(), new MyHandler(car));
         move.move();*/
-        MyProxy.newProxyInstance();
+        Car car = new Car();
+        MyInvocationHandler h = new MyHandler(car);
+        Move move = (Move) MyProxy.newProxyInstance(Move.class, h);
+        move.move();
     }
 }
