@@ -2,8 +2,7 @@ package com.czk.hope.designmode.iterator.menu;
 
 /**
  * @Author: Created by ChenZK
- * @Create: 2020/3/30 14:41
- * 菜单
+ * @Create: 2020/4/2 10:10
  */
 public class MenuItem {
     String name;
@@ -11,7 +10,7 @@ public class MenuItem {
     boolean vegetarian;
     double price;
 
-    public MenuItem(String name,String description, boolean vegetarian, double price){
+    public MenuItem (String name, String description, boolean vegetarian, double price) {
         this.name = name;
         this.description = description;
         this.vegetarian = vegetarian;
@@ -26,12 +25,11 @@ public class MenuItem {
         return description;
     }
 
+    public double getPrice() {
+        return price;
+    }
 
     public boolean isVegetarian() {
         return vegetarian;
-    }
-
-    public double getPrice() {
-        return price;
     }
 }
