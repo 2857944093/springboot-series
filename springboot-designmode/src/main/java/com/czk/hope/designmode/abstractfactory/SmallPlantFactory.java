@@ -19,10 +19,10 @@ public class SmallPlantFactory extends AbstractPlant {
 
     public void createNew() {
         if (smallNutFactory == null) {
-            smallNutFactory = new SmallNutFactory();
+            smallNutFactory =  SmallNutFactory.getInstance();
         }
         if (smallScrewPlant == null) {
-            smallScrewPlant = new SmallScrewPlant();
+            smallScrewPlant = SmallScrewPlant.getInstance();
         }
     }
 }

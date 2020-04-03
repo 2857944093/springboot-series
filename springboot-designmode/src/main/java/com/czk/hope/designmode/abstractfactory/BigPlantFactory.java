@@ -17,10 +17,10 @@ public class BigPlantFactory extends AbstractPlant {
 
     void createNew(){
         if (bigNutPlant == null) {
-            bigNutPlant = new BigNutPlant();
+            bigNutPlant = BigNutPlant.getInstance();
         }
         if (bigScrewPlant == null) {
-            bigScrewPlant = new BigScrewPlant();
+            bigScrewPlant = BigScrewPlant.getInstance();
         }
     }
 }
