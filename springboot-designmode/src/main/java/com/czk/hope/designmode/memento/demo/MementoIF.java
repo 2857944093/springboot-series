@@ -1,4 +1,4 @@
-package com.czk.hope.designmode.memento;
+package com.czk.hope.designmode.memento.demo;
 
 /**
  * @Author: Created by ChenZK

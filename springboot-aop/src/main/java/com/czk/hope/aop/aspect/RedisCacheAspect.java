@@ -2,7 +2,6 @@ package com.czk.hope.aop.aspect;
 
 import com.czk.hope.aop.annotation.DataSource;
 import com.czk.hope.aop.annotation.RedisCleanCache;
-import com.czk.hope.aop.annotation.RedisJoinCache;
 import com.czk.hope.util.redis.RedisUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang3.StringUtils;

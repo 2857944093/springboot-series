@@ -1,4 +1,4 @@
-package com.czk.hope.designmode.templatemethod;
+package com.czk.hope.designmode.templatemethod.shop;
 
 import com.czk.hope.designmode.templatemethod.shop.CaffeineBeverage;
 import com.czk.hope.designmode.templatemethod.shop.Coffe;

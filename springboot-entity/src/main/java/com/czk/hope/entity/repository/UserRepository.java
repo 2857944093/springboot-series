@@ -2,7 +2,6 @@ package com.czk.hope.entity.repository;
 
 
 import com.czk.hope.entity.model.Users;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
