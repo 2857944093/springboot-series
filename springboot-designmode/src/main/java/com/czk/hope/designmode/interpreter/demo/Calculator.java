@@ -15,7 +15,6 @@ public class Calculator {
     public Calculator(String expStr) {
         //定义运算顺序
         Stack<AbstractExpresstion> stack = new Stack<>();
-        System.out.println(stack);
         //表达式拆分为字符数组
         char[] charArray = expStr.toCharArray();
 
@@ -47,8 +46,8 @@ public class Calculator {
                     stack.push(new VarExpresstion(String.valueOf(charArray[i])));
                     break;
             }
-            this.expresstion = stack.pop();
         }
+        this.expresstion = stack.pop();
     }
 
     public float run(HashMap<String, Float> var) {
