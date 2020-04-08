@@ -33,7 +33,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("springboot")
-                .description("springboot")
+                .description("springboot-series")
                 .termsOfServiceUrl("https://www.chenzki.top")
                 .version("1.0")
                 .build();

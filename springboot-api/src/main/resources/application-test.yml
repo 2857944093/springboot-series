@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://106.15.180.75:3306/db1?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/db1?characterEncoding=utf-8&useSSL=false
   jpa:
     database: mysql
     show-sql: true
@@ -18,7 +18,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect
   redis:
     database: 0
-    host: 106.15.180.75
+    host: 127.0.0.1
     port: 6379
 server:
   port: 8080
@@ -28,22 +28,22 @@ gt:
   maxzhao:
     boot:
       #主动开启多数据源
-      multiDatasourceOpen: true
+      multiDatasourceOpen: flase
       datasource[0]:
         dbName: second
         driver-class-name: com.mysql.jdbc.Driver
         username: root
         password: 123456
-        url: jdbc:mysql://106.15.180.75:3306/db2?characterEncoding=utf-8&useSSL=false
+        url: jdbc:mysql://localhost:3306/db2?characterEncoding=utf-8&useSSL=false
       datasource[1]:
         dbName: third
         driver-class-name: com.mysql.jdbc.Driver
         username: root
         password: 123456
-        url: jdbc:mysql://106.15.180.75:3306/db3?characterEncoding=utf-8&useSSL=false
+        url: jdbc:mysql://localhost:3306/db3?characterEncoding=utf-8&useSSL=false
 alibaba:
   sendsms:
-    SignName: 码农
-    AccessKeyID: LTAI4FmM2EV2r854mbvTyMys
-    AccessKeySecret: wJg8tZJLouMEJ5k29Pjcmr79FKPyS7
-    TemplateCode: SMS_163625310
+    SignName:
+    AccessKeyID:
+    AccessKeySecret:
+    TemplateCode:

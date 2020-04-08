@@ -57,7 +57,7 @@ public class SendSmsUtils {
 
     public static void main(String[] args) {
         SendSmsUtils sendSmsUtils = new SendSmsUtils();
-        sendSmsUtils.sendSms("18711432261", "123456");
+        sendSmsUtils.sendSms("", "");
     }
 
 }
