@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e6cc56-6a1d-4286-b0a8-df33713c5eaf" name="Default Changelist" comment="数据源和缓存冲突问题">
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/AbstractExpresstion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/AddExpresstion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/DivExpresstion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/MutiExpresstion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/SubExpresstion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/SymbolExpresstion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/VarExpresstion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/demo/CompensationVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/demo/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/demo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/demo/Employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/demo/IncomeVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/demo/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/demo/VistorDemo.java" afterDir="false" />
+    <list default="true" id="c3e6cc56-6a1d-4286-b0a8-df33713c5eaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-designmode/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designmode/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/InterpreterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/InterpreterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/MementoCaretaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/demo/MementoCaretaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/MementoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/demo/MementoDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/MementoIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/demo/MementoIF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/demo/Originator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/templatemethod/TemplateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/templatemethod/shop/TemplateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,10 +61,10 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="254" />
-          <entry key="md" value="44" />
+          <entry key="java" value="259" />
+          <entry key="md" value="46" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
@@ -96,26 +72,26 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="254" />
-          <entry key="Markdown" value="44" />
+          <entry key="JAVA" value="259" />
+          <entry key="Markdown" value="46" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="13894" />
-          <entry key="md" value="682" />
+          <entry key="java" value="13900" />
+          <entry key="md" value="694" />
           <entry key="txt" value="15" />
           <entry key="yml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13894" />
-          <entry key="Markdown" value="682" />
+          <entry key="JAVA" value="13900" />
+          <entry key="Markdown" value="694" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="YAML" value="35" />
         </counts>
@@ -148,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#391#399#0" expanded="true" />
@@ -162,70 +138,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/AbstractExpresstion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/AddExpresstion.java">
+        <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/DivExpresstion.java">
+        <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="38">
+              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/Calculator.java">
+        <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/DataSourceAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1691#1692#0" expanded="true" />
-                <element signature="e#1747#1748#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.131/src.zip!/java/util/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/springboot-datasource/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.131/src.zip!/java/util/Vector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="617" column="29" selection-start-line="617" selection-start-column="29" selection-end-line="617" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/readme.md">
+        <entry file="file://$PROJECT_DIR$/springboot-datasource/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+                <caret column="8" selection-start-column="8" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -233,10 +183,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/demo/Originator.java">
+        <entry file="file://$PROJECT_DIR$/springboot-generator/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="10" selection-start-column="10" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/model/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -279,11 +253,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/flyweigt/FlyweigtDemo.java" />
-        <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/flyweigt/TreeManager.java" />
-        <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/readme.md" />
-        <option value="$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/swagger/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/mediator/readme.md" />
         <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/prototype/readme.md" />
         <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/prototype/Monster.java" />
         <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/prototype/MonsterRegistry.java" />
@@ -330,6 +299,11 @@
         <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/Calculator.java" />
         <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/InterpreterDemo.java" />
         <option value="$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/Test.java" />
+        <option value="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java" />
+        <option value="$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/DataSourceAspect.java" />
+        <option value="$PROJECT_DIR$/springboot-datasource/readme.md" />
+        <option value="$PROJECT_DIR$/springboot-generator/readme.md" />
+        <option value="$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/repository/UserRepository.java" />
       </list>
     </option>
   </component>
@@ -373,101 +347,6 @@
               <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="czk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="czk" type="462c0819:PsiDirectoryNode" />
-              <item name="hope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="czk" type="462c0819:PsiDirectoryNode" />
-              <item name="hope" type="462c0819:PsiDirectoryNode" />
-              <item name="designmode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="czk" type="462c0819:PsiDirectoryNode" />
-              <item name="hope" type="462c0819:PsiDirectoryNode" />
-              <item name="designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-series" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-series" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="czk" type="462c0819:PsiDirectoryNode" />
-              <item name="hope" type="462c0819:PsiDirectoryNode" />
-              <item name="designmode" type="462c0819:PsiDirectoryNode" />
-              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -487,7 +366,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586339273591" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586339393353" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../blockchain_study-master" />
@@ -679,7 +558,7 @@
       <workItem from="1585642930592" duration="1897000" />
       <workItem from="1585722582278" duration="5695000" />
       <workItem from="1586224073440" duration="13965000" />
-      <workItem from="1586310577346" duration="21929000" />
+      <workItem from="1586310577346" duration="22186000" />
     </task>
     <task id="LOCAL-00001" summary="代码生成器">
       <created>1577268487002</created>
@@ -716,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586327840457</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="数据源和缓存冲突问题">
+      <created>1586339411157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586339411157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -752,7 +638,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63163000" />
+    <option name="totallyTimeSpent" value="63420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,7 +653,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968652" visible="true" weight="0.22441365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968652" visible="true" weight="0.22441365" />
       <window_info id="Structure" order="1" sideWeight="0.5022272" side_tool="true" weight="0.22441365" />
       <window_info id="Persistence" order="2" sideWeight="0.5031348" side_tool="true" weight="0.22441365" />
       <window_info id="Designer" order="3" />
@@ -779,7 +665,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3040089" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46659243" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46659243" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
@@ -855,87 +741,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="代码生成器" />
-    <MESSAGE value="数据源和缓存冲突问题" />
     <MESSAGE value="区块的准备" />
     <MESSAGE value="eth的转账和代币转账，生成地址等功能" />
     <MESSAGE value="总体整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="总体整理" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/Test.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/Test.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="数据源和缓存冲突问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据源和缓存冲突问题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/config/MultiSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/properties/DruidProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1262">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/czk/hope/datasource/properties/MultiDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/entity/ColumnEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/entity/TableEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-generator/src/main/java/com/czk/hope/generator/util/GenUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3033">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-util/src/main/java/com/czk/hope/util/DateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1250,11 +1062,73 @@
     <entry file="file://$PROJECT_DIR$/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/demo/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#391#399#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/annotation/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/RedisCacheAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-aop/src/main/java/com/czk/hope/aop/aspect/DataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-datasource/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-datasource/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="8" selection-start-column="8" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-generator/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="10" selection-start-column="10" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/model/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-entity/src/main/java/com/czk/hope/entity/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
