@@ -34,7 +34,7 @@
 6、合成复用原则（Composite Reuse Principle）
 原则是尽量首先使用合成/聚合的方式，而不是使用继承。
 
-23种设计模式
+<h3><strong>23种设计模式</strong></h3>
 <p></p>
 <a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/abstractfactory/readme.md'>抽象工厂</a>
 <p></p>
