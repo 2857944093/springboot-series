@@ -34,49 +34,50 @@
 6、合成复用原则（Composite Reuse Principle）
 原则是尽量首先使用合成/聚合的方式，而不是使用继承。
 
-23中设计模式
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/abstractfactory/readme.md'>抽象工厂</a>
+23种设计模式
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/readme.md'>适配器模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/abstractfactory/readme.md'>抽象工厂</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/bridge/readme.md'>桥接模式</a>
+<a hrefhref='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/adapter/readme.md'>适配器模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/builder/readme.md'>建造者模式</a>
+<a hrefhrefhref='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/bridge/readme.md'>桥接模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/chainofresponsibility/readme.md'>责任链模式模式</a>
+<a hrefhrefhrefhref='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/builder/readme.md'>建造者模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/command/readme.md'>命令模式</a>
+<a hrefhrefhrefhrefhref='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/chainofresponsibility/readme.md'>责任链模式模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/composite/readme.md'>组合模式</a>
+<a hrefhrefhrefhrefhrefhref='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/command/readme.md'>命令模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/readme.md'>装饰者模式</a>
+<a hrefhrefhrefhrefhrefhrefhref='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/composite/readme.md'>组合模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/readme.md'>外观模式</a>
+<a hrefhrefhrefhrefhrefhrefhrefhref='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/decorator/readme.md'>装饰者模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/factory/readme.md'>工厂方法</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/facade/readme.md'>外观模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/tree/master/springboot-designmode/src/main/java/com/czk/hope/designmode/flyweigt'>蝇量模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/factory/readme.md'>工厂方法</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/readme.md'>解释器模式</a>
+<a href='https://github.com/2857944093/springboot-series/tree/master/springboot-designmode/src/main/java/com/czk/hope/designmode/flyweigt'>蝇量模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/iterator/readme.md'>迭代器模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/interpreter/readme.md'>解释器模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/mediator/readme.md'>中介者模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/iterator/readme.md'>迭代器模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/readme.md'>备忘录模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/mediator/readme.md'>中介者模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/readme.md'>观察者模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/memento/readme.md'>备忘录模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/prototype/readme.md'>原型模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/observer/readme.md'>观察者模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/proxy/readme.md'>代理模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/prototype/readme.md'>原型模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/singleton/readme.md'>单例模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/proxy/readme.md'>代理模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/status/readme.md'>状态模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/singleton/readme.md'>单例模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/readme.md'>策略模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/status/readme.md'>状态模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/templatemethod/readme.md'>模板方法模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/strategy/readme.md'>策略模式</a>
 <p></p>
-<a src='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/readme.md'>访问者模式</a>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/templatemethod/readme.md'>模板方法模式</a>
+<p></p>
+<a href='https://github.com/2857944093/springboot-series/blob/master/springboot-designmode/src/main/java/com/czk/hope/designmode/visitor/readme.md'>访问者模式</a>
