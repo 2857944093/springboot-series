@@ -1,6 +1,6 @@
 package com.czk.hope.designmode.factory;
 
-import com.czk.hope.designmode.factory.pizza.Pizza;
+import com.czk.hope.designmode.factory.pizza.Product;
 
 /**
  * @Author: Created by ChenZK
@@ -10,9 +10,7 @@ import com.czk.hope.designmode.factory.pizza.Pizza;
 public class FactoryDemo {
     public static void main(String[] args) {
         SimplePizzaFactory factory = new SimplePizzaFactory();
-
-        Pizza pizza = new PizzaStore(factory).orderPizza("clam");
-
+        Product pizza = new PizzaStore(factory).orderPizza("clam");
         pizza.print();
     }
 }

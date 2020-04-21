@@ -2,7 +2,7 @@ package com.czk.hope.designmode.factory;
 
 import com.czk.hope.designmode.factory.pizza.CheesePizza;
 import com.czk.hope.designmode.factory.pizza.ClamPizza;
-import com.czk.hope.designmode.factory.pizza.Pizza;
+import com.czk.hope.designmode.factory.pizza.Product;
 import com.czk.hope.designmode.factory.pizza.VeggiePizza;
 
 /**
@@ -11,8 +11,8 @@ import com.czk.hope.designmode.factory.pizza.VeggiePizza;
  * 披萨工厂
  */
 public class SimplePizzaFactory {
-    public Pizza createPizza(String type) {
-        Pizza pizza = null;
+    public Product createPizza(String type) {
+        Product pizza = null;
 
         if (type.equals("cheese")) {
             pizza = new CheesePizza();

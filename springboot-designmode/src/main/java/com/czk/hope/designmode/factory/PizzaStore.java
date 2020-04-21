@@ -1,6 +1,6 @@
 package com.czk.hope.designmode.factory;
 
-import com.czk.hope.designmode.factory.pizza.Pizza;
+import com.czk.hope.designmode.factory.pizza.Product;
 
 /**
  * @Author: Created by ChenZK
@@ -13,11 +13,7 @@ public class PizzaStore {
         this.factory = factory;
     }
 
-    public Pizza orderPizza(String type) {
-        Pizza pizza;
-
-        pizza = factory.createPizza(type);
-
-        return pizza;
+    public Product orderPizza(String type) {
+        return factory.createPizza(type);
     }
 }
