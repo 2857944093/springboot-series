@@ -22,6 +22,7 @@
 
 代码示例：下面是一个披萨工厂
 <p></p>
+
     public class PizzaStore {
         SimplePizzaFactory factory;
 
@@ -34,6 +35,7 @@
         }
     }
 <p></p>
+
     public class SimplePizzaFactory {
         public Product createPizza(String type) {
             Product pizza = null;
@@ -48,10 +50,12 @@
         }
     }
 <p></p>
+
     public interface Product {
         void print();
     }
 <p></p>
+
     //奶酪披萨
     public class CheesePizza implements Product {
         @Override
@@ -60,6 +64,7 @@
         }
     }
 <p></p>
+
     //蔬菜披萨
     public class VeggiePizza implements Product {
         @Override
@@ -68,6 +73,7 @@
         }
     }
 <p></p>
+
     public class Client{
       public static void main(String[] args) {
             SimplePizzaFactory factory = new SimplePizzaFactory();
