@@ -81,7 +81,9 @@
             pizza.print();
         }
     }
-输出: clam
+<p></p>
+
+    输出: clam
 
 总结：
 
