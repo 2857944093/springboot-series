@@ -10,65 +10,11 @@
 
 适用场景：
 
-当一个类不知道它所需要创建的对象是那个类的时候。
+    当一个类不知道它所需要创建的对象是那个类的时候。
 
-当一个类希望由它的子类来指定它所创建的对象的时候。
+    当一个类希望由它的子类来指定它所创建的对象的时候。
 
-当类创建对象的职责委托给某一个类时，并且你希望指定由哪一个类代理这一局部化的时候。
+    当类创建对象的职责委托给某一个类时，并且你希望指定由哪一个类代理这一局部化的时候。
 
 
 结构：
-
-
-
-代码示例：下面是一个披萨工厂
-
-public class PizzaStore {
-    SimplePizzaFactory factory;
-​
-    public PizzaStore(SimplePizzaFactory factory) {
-        this.factory = factory;
-    }
-    
-    public Product orderPizza(String type) {
-         return  factory.createPizza(type);
-    }
-}
-public class SimplePizzaFactory {
-    public Product createPizza(String type) {
-        Product pizza = null;
-        if (type.equals("cheese")) {
-            pizza = new CheesePizza();
-        } else if (type.equals("clam")) {
-            pizza = new ClamPizza();
-        } else if (type.equals("veggie")) {
-            pizza = new VeggiePizza();
-        }
-        return pizza;
-    }
-}
-public interface Product {
-    void print();
-}
-//奶酪披萨
-public class CheesePizza implements Product {
-    @Override
-    public void print() {
-        System.out.println("cheese");
-    }
-}
-//蔬菜披萨
-public class VeggiePizza implements Product {
-    @Override
-    public void print() {
-        System.out.println("veggie");
-    }
-}
-public class Client{
-  public static void main(String[] args) {
-        SimplePizzaFactory factory = new SimplePizzaFactory();
-        Product pizza = new PizzaStore(factory).orderPizza("clam");
-        pizza.print();
-    }
-}
-: clam
