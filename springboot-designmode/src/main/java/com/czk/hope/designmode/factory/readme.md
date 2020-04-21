@@ -21,7 +21,7 @@
 <img src="https://github.com/2857944093/springboot-series/blob/master/images/factory/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95.png" />
 
 代码示例：下面是一个披萨工厂
-
+<p></p>
     public class PizzaStore {
         SimplePizzaFactory factory;
 
@@ -33,7 +33,7 @@
              return  factory.createPizza(type);
         }
     }
-
+<p></p>
     public class SimplePizzaFactory {
         public Product createPizza(String type) {
             Product pizza = null;
@@ -47,11 +47,11 @@
             return pizza;
         }
     }
-
+<p></p>
     public interface Product {
         void print();
     }
-
+<p></p>
     //奶酪披萨
     public class CheesePizza implements Product {
         @Override
@@ -59,7 +59,7 @@
             System.out.println("cheese");
         }
     }
-
+<p></p>
     //蔬菜披萨
     public class VeggiePizza implements Product {
         @Override
@@ -67,7 +67,7 @@
             System.out.println("veggie");
         }
     }
-
+<p></p>
     public class Client{
       public static void main(String[] args) {
             SimplePizzaFactory factory = new SimplePizzaFactory();
