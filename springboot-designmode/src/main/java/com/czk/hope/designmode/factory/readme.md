@@ -33,7 +33,7 @@
              return  factory.createPizza(type);
         }
     }
-    
+
     public class SimplePizzaFactory {
         public Product createPizza(String type) {
             Product pizza = null;
@@ -47,11 +47,11 @@
             return pizza;
         }
     }
-    
+
     public interface Product {
         void print();
     }
-    
+
     //奶酪披萨
     public class CheesePizza implements Product {
         @Override
@@ -59,7 +59,7 @@
             System.out.println("cheese");
         }
     }
-    
+
     //蔬菜披萨
     public class VeggiePizza implements Product {
         @Override
@@ -67,7 +67,7 @@
             System.out.println("veggie");
         }
     }
-    
+
     public class Client{
       public static void main(String[] args) {
             SimplePizzaFactory factory = new SimplePizzaFactory();
@@ -76,3 +76,7 @@
         }
     }
 输出: clam
+
+总结：
+
+    工厂方法让我们将类的实例化那一部分分离出来，延迟到子类执行。其实Spring IOC中一直默默的为我们做着这工作。
