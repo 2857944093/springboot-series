@@ -18,3 +18,61 @@
 
 
 结构：
+<img src="https://github.com/2857944093/springboot-series/blob/master/images/factory/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95.png" />
+
+代码示例：下面是一个披萨工厂
+
+    public class PizzaStore {
+        SimplePizzaFactory factory;
+
+        public PizzaStore(SimplePizzaFactory factory) {
+            this.factory = factory;
+        }
+
+        public Product orderPizza(String type) {
+             return  factory.createPizza(type);
+        }
+    }
+    
+    public class SimplePizzaFactory {
+        public Product createPizza(String type) {
+            Product pizza = null;
+            if (type.equals("cheese")) {
+                pizza = new CheesePizza();
+            } else if (type.equals("clam")) {
+                pizza = new ClamPizza();
+            } else if (type.equals("veggie")) {
+                pizza = new VeggiePizza();
+            }
+            return pizza;
+        }
+    }
+    
+    public interface Product {
+        void print();
+    }
+    
+    //奶酪披萨
+    public class CheesePizza implements Product {
+        @Override
+        public void print() {
+            System.out.println("cheese");
+        }
+    }
+    
+    //蔬菜披萨
+    public class VeggiePizza implements Product {
+        @Override
+        public void print() {
+            System.out.println("veggie");
+        }
+    }
+    
+    public class Client{
+      public static void main(String[] args) {
+            SimplePizzaFactory factory = new SimplePizzaFactory();
+            Product pizza = new PizzaStore(factory).orderPizza("clam");
+            pizza.print();
+        }
+    }
+输出: clam
