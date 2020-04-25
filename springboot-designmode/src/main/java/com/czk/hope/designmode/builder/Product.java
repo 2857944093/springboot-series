@@ -32,4 +32,14 @@ public class Product {
     public void setPartC(String partC) {
         this.partC = partC;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "partA='" + partA + '\'' +
+                ", partB='" + partB + '\'' +
+                ", partC='" + partC + '\'' +
+                '}';
+    }
 }
+

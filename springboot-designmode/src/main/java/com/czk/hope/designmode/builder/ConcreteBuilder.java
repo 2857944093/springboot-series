@@ -7,16 +7,16 @@ package com.czk.hope.designmode.builder;
 public class ConcreteBuilder extends Builder {
     @Override
     public void buildPartA() {
-        System.out.println("A");
+        System.out.print("A");
     }
 
     @Override
     public void buildPartB() {
-        System.out.println("B");
+        System.out.print("B");
     }
 
     @Override
     public void buildPartC() {
-        System.out.println("C");
+        System.out.print("C");
     }
 }
