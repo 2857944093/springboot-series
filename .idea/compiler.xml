@@ -40,5 +40,5 @@
       <module name="springboot-generator" options="-parameters" />
       <module name="springboot-util" options="-parameters" />
     </option>
-  </component>
+  </component> 
 </project>
