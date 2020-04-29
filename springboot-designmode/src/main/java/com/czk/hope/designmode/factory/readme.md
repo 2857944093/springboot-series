@@ -23,7 +23,7 @@
 代码示例：下面是一个披萨工厂
 <p></p>
 
-    
+>    
 >    public class PizzaStore {
 >        SimplePizzaFactory factory;
 >
@@ -35,6 +35,7 @@
 >             return  factory.createPizza(type);
 >        }
 >    }
+>
     
 <p></p>
 
