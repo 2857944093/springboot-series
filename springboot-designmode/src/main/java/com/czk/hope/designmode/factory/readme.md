@@ -23,7 +23,8 @@
 代码示例：下面是一个披萨工厂
 <p></p>
 
-    `public class PizzaStore {
+    ```
+    public class PizzaStore {
         SimplePizzaFactory factory;
 
         public PizzaStore(SimplePizzaFactory factory) {
@@ -33,10 +34,11 @@
         public Product orderPizza(String type) {
              return  factory.createPizza(type);
         }
-    }`
+    }
+    ```
 <p></p>
 
-    public class SimplePizzaFactory {
+       public class SimplePizzaFactory {
         public Product createPizza(String type) {
             Product pizza = null;
             if (type.equals("cheese")) {
