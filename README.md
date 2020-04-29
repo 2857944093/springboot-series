@@ -9,4 +9,4 @@
 
 个人博客 <https://www.chenzki.top><br/>
 
-<a href="javascript:void(0);" target="_blank" title="点击QQ联系我" onclick="window.open('tencent://message/?uin=2459899769&amp;Site=https://www.chenzki.top&amp;Menu=yes')" rel="external nofollow"><i class="fa fa fa-qq fa-fw"></i>QQ联系</a>
+<a href="tencent://message/?uin=2459899769&amp;Site=https://www.chenzki.top&amp;Menu=yes" target="_blank"QQ联系</a>
