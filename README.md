@@ -8,5 +8,3 @@
 <h3>关注<storng>微信公众号</storng>获取java学习资料</h3>
 
 个人博客 <https://www.chenzki.top><br/>
-
-<a href="tencent://message/?uin=2459899769&amp;Site=https://www.chenzki.top&amp;Menu=yes" target="_blank"QQ联系</a>
