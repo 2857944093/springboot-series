@@ -1,7 +1,6 @@
 package com.czk.hope.api.controller;
 
 import com.czk.hope.api.service.GeneratorService;
-import com.czk.hope.entity.repository.UserRepository;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

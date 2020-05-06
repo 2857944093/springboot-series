@@ -3,31 +3,27 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>springboot-series</artifactId>
+        <artifactId>springboot-security</artifactId>
         <groupId>com.czk.hope</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot-aop</artifactId>
+    <artifactId>security-core</artifactId>
 
     <properties>
-
+        <oauth2.version>2.4.0.RELEASE</oauth2.version>
     </properties>
 
     <dependencies>
-
         <dependency>
-            <groupId>com.czk.hope</groupId>
-            <artifactId>springboot-datasource</artifactId>
-            <version>${project.parent.version}</version>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+            <version>${oauth2.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.czk.hope</groupId>
-            <artifactId>springboot-util</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
+
     </dependencies>
+
 
 </project>

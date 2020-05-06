@@ -3,9 +3,6 @@ package com.czk.hope.util.response;
 import com.czk.hope.util.enums.ResultEnum;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.Data;
-import org.springframework.stereotype.Component;
-
-import javax.persistence.criteria.CriteriaBuilder;
 
 /**
  * @Author: Created by ChenZK

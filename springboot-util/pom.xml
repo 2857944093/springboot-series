@@ -5,7 +5,7 @@
     <parent>
         <artifactId>springboot-series</artifactId>
         <groupId>com.czk.hope</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -30,15 +30,11 @@
         <velocity.version>1.7</velocity.version>
         <jaskson.version>2.8.9</jaskson.version>
         <okhttp.version>3.11.0</okhttp.version>
+        <aliyun.sdk.core>4.4.6</aliyun.sdk.core>
+        <aliyun.sdk.ecs>4.17.6</aliyun.sdk.ecs>
     </properties>
 
    <dependencies>
-       <dependency>
-           <groupId>com.czk.hope</groupId>
-           <artifactId>springboot-entity</artifactId>
-           <version>${project.parent.version}</version>
-       </dependency>
-
        <dependency>
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-starter-data-redis</artifactId>
@@ -77,12 +73,12 @@
        <dependency>
            <groupId>com.aliyun</groupId>
            <artifactId>aliyun-java-sdk-core</artifactId>
-           <version>4.4.6</version>
+           <version>${aliyun.sdk.core}</version>
        </dependency>
        <dependency>
            <groupId>com.aliyun</groupId>
            <artifactId>aliyun-java-sdk-ecs</artifactId>
-           <version>4.17.6</version>
+           <version>${aliyun.sdk.ecs}</version>
        </dependency>
    </dependencies>
 </project>

@@ -4,7 +4,7 @@ import com.czk.hope.aop.annotation.DataSource;
 import com.czk.hope.aop.annotation.RedisCleanCache;
 import com.czk.hope.util.redis.RedisUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

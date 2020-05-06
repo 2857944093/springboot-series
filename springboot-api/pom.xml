@@ -5,7 +5,7 @@
     <parent>
         <artifactId>springboot-series</artifactId>
         <groupId>com.czk.hope</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -40,6 +40,12 @@
         <dependency>
             <groupId>com.czk.hope</groupId>
             <artifactId>springboot-generator</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.czk.hope</groupId>
+            <artifactId>springboot-entity</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
 

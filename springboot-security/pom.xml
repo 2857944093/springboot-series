@@ -9,12 +9,28 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot-datasource</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>springboot-security</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>security-core</module>
+    </modules>
 
     <properties>
-        <druid.version>1.0.28</druid.version>
+        <spring-boot.version>2.1.7.RELEASE</spring-boot.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
     <dependencies>
         <dependency>
@@ -22,16 +38,7 @@
             <artifactId>springboot-util</artifactId>
             <version>${parent.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>${druid.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
-        </dependency>
     </dependencies>
+
 
 </project>

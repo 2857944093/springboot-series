@@ -34,6 +34,10 @@ import java.util.concurrent.ExecutionException;
 @Slf4j
 public class EthUtils {
 
+    public static void show() {
+        System.out.println("Hello World");
+    }
+
     /**
      * 创建地址生成eth地址: json文件
      *

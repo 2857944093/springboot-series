@@ -12,6 +12,8 @@
         <module>springboot-generator</module>
         <module>springboot-blockchain</module>
         <module>springboot-designmode</module>
+        <module>springboot-mq</module>
+        <module>springboot-security</module>
     </modules>
 
     <parent>
@@ -21,9 +23,13 @@
         <relativePath/>
     </parent>
 
+    <!-- SNAPSHOT: 快照 开发版本 -->
+    <!-- RELEASE: 发布 稳定版本 -->
+    <!-- 版本更新命令:  mvn versions:set -DnewVersion=1.0.0 该命令自己设置版本号直接运行即可修改所有父子工程版本号 -->
+    <!-- 版本更新命令:  mvn -N versions:update-child-modules  该命令需手动修改父工程的版本，子工程会同步父工程的版本号 -->
     <groupId>com.czk.hope</groupId>
     <artifactId>springboot-series</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>springboot-series</name>
     <description>Demo project for Spring Boot</description>
 
@@ -32,13 +38,16 @@
         <lombok.version>1.18.8</lombok.version>
         <mysql.version>5.1.40</mysql.version>
         <swagger.version>2.7.0</swagger.version>
-        <commons.version>3.6</commons.version>
+        <commons.version>4.1</commons.version>
         <slf4j.version>1.7.25</slf4j.version>
         <druid.version>1.1.13</druid.version>
+        <lang.version>2.6</lang.version>
+        <collections.version>3.2.1</collections.version>
+        <beanutils.version>1.9.3</beanutils.version>
+        <io.version>2.4</io.version>
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -52,7 +61,6 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
@@ -66,9 +74,29 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>${commons.version}</version>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>${lang.version}</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>${collections.version}</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>${beanutils.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${io.version}</version>
         </dependency>
 
         <dependency>
@@ -101,4 +129,28 @@
             </exclusions>
         </dependency>
     </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <generateBackupPoms>false</generateBackupPoms>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

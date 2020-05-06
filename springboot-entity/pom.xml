@@ -5,14 +5,21 @@
     <parent>
         <artifactId>springboot-series</artifactId>
         <groupId>com.czk.hope</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>springboot-entity</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.czk.hope</groupId>
+            <artifactId>springboot-util</artifactId>
+            <version>${parent.version}</version>
         </dependency>
     </dependencies>
 </project>

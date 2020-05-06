@@ -9,24 +9,29 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot-aop</artifactId>
+    <artifactId>springboot-mq</artifactId>
 
     <properties>
-
+        <rabbitmq.version>5.7.3</rabbitmq.version>
     </properties>
 
+
+    <!-- 依赖管理 -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.rabbitmq</groupId>
+                <artifactId>amqp-client</artifactId>
+                <version>${rabbitmq.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
     <dependencies>
-
         <dependency>
-            <groupId>com.czk.hope</groupId>
-            <artifactId>springboot-datasource</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.czk.hope</groupId>
-            <artifactId>springboot-util</artifactId>
-            <version>${project.parent.version}</version>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
         </dependency>
     </dependencies>
 
