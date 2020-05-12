@@ -21,7 +21,7 @@ import java.io.*;
 @RequestMapping(path = "/eth")
 public class EthController {
 
-    @RequestMapping("/create/account")
+    @RequestMapping("/create")
     public ResponseEntity createAccount(HttpServletRequest request, @RequestParam String password) {
         String filePath = EthUtils.createAccount(password);
         File file = new File(EthConstants.privateKeyJsonFilePath + filePath);

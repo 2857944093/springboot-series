@@ -11,10 +11,6 @@
 
     <artifactId>springboot-aop</artifactId>
 
-    <properties>
-
-    </properties>
-
     <dependencies>
 
         <dependency>

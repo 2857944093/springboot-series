@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-security/security-core/security-core.iml" filepath="$PROJECT_DIR$/springboot-security/security-core/security-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-api/springboot-api.iml" filepath="$PROJECT_DIR$/springboot-api/springboot-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-blockchain/springboot-blockchain.iml" filepath="$PROJECT_DIR$/springboot-blockchain/springboot-blockchain.iml" />
@@ -9,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-designmode/springboot-designmode.iml" filepath="$PROJECT_DIR$/springboot-designmode/springboot-designmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-entity/springboot-entity.iml" filepath="$PROJECT_DIR$/springboot-entity/springboot-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-generator/springboot-generator.iml" filepath="$PROJECT_DIR$/springboot-generator/springboot-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mq/springboot-mq.iml" filepath="$PROJECT_DIR$/springboot-mq/springboot-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-series.iml" filepath="$PROJECT_DIR$/springboot-series.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-util/springboot-util.iml" filepath="$PROJECT_DIR$/springboot-util/springboot-util.iml" />
     </modules>

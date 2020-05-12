@@ -15,12 +15,13 @@ import java.io.IOException;
  */
 
 @RestController
+@RequestMapping("/code")
 public class GeneratorController {
 
     @Autowired
     private GeneratorService generatorService;
 
-    @RequestMapping("get/code")
+    @RequestMapping("/get")
     public void  getCode(HttpServletResponse response) throws IOException {
         byte[] data = generatorService.generatorCode();
 

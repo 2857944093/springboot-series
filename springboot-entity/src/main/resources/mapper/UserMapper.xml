@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.czk.hope.entity.repository.UserMapper">
+
+
+    <select id="findTableAll" resultType="java.util.Map">
+        select table_name as tableName, table_comment as tableComment from information_schema.tables where table_schema='mybatis-plus'
+    </select>
+    <select id="findTableByTableName" resultType="java.util.Map" parameterType="java.lang.String">
+        select column_name as columnName,data_type AS dataType,column_comment as columnComment  from information_schema.columns where table_schema ='mybatis-plus'  and table_name = #{tableName} ;
+    </select>
+</mapper>

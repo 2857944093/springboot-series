@@ -45,18 +45,6 @@
 
         <dependency>
             <groupId>com.czk.hope</groupId>
-            <artifactId>springboot-entity</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.czk.hope</groupId>
-            <artifactId>springboot-datasource</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.czk.hope</groupId>
             <artifactId>springboot-aop</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
@@ -81,20 +69,5 @@
 
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>

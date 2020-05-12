@@ -19,18 +19,8 @@
     <dependencies>
         <dependency>
             <groupId>com.czk.hope</groupId>
-            <artifactId>springboot-util</artifactId>
+            <artifactId>springboot-entity</artifactId>
             <version>${parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>${druid.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
     </dependencies>
 

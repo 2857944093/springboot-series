@@ -36,6 +36,15 @@
             <version>${bitcoinj.version}</version>
         </dependency>
 
-
     </dependencies>
+
+    <!--上传到nexus仓库中，配合mvn deploy:deploy-->
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus snapshots Repository</name>
+            <!--snapshots仓库 -->
+            <url>http://139.196.120.124:8091/repository/maven-snapshots/</url>
+        </repository>
+    </distributionManagement>
 </project>

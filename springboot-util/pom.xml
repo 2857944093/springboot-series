@@ -32,6 +32,8 @@
         <okhttp.version>3.11.0</okhttp.version>
         <aliyun.sdk.core>4.4.6</aliyun.sdk.core>
         <aliyun.sdk.ecs>4.17.6</aliyun.sdk.ecs>
+        <codec.version>1.13</codec.version>
+        <zxing.version>3.3.0</zxing.version>
     </properties>
 
    <dependencies>
@@ -79,6 +81,23 @@
            <groupId>com.aliyun</groupId>
            <artifactId>aliyun-java-sdk-ecs</artifactId>
            <version>${aliyun.sdk.ecs}</version>
+       </dependency>
+
+       <dependency>
+           <groupId>commons-codec</groupId>
+           <artifactId>commons-codec</artifactId>
+           <version>${codec.version}</version>
+       </dependency>
+
+       <dependency>
+           <groupId>com.google.zxing</groupId>
+           <artifactId>core</artifactId>
+           <version>${zxing.version}</version>
+       </dependency>
+       <dependency>
+           <groupId>com.google.zxing</groupId>
+           <artifactId>javase</artifactId>
+           <version>${zxing.version}</version>
        </dependency>
    </dependencies>
 </project>

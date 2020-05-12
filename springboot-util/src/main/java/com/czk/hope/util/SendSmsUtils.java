@@ -31,6 +31,7 @@ public class SendSmsUtils {
         return String.valueOf(random.nextInt(1000000));
     }
 
+    @SuppressWarnings("unchecked")
     public void sendSms(String phone, String code) {
         DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", sendSmsConfig.getAccessKeyID(), sendSmsConfig.getAccessKeySecret());
         IAcsClient client = new DefaultAcsClient(profile);

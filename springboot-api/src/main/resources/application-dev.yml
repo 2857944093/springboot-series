@@ -1,29 +1,43 @@
 spring:
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://localhost:3306/db1?characterEncoding=utf-8&useSSL=false
-  jpa:
-    database: mysql
-    show-sql: true
-    database-plinatform: org.hibernate.dialect.MySQL5InnoDBDialect
-    hibernate:
-      ddl-auto: update
-    properties:
-      #不加此配置，获取不到当前currentsession
-      hibernate:
-        current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
-        dialect: org.hibernate.dialect.MySQL5Dialect
+    url: jdbc:mysql://106.15.180.75:3306/mybatis-plus?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#  jpa:
+#    database: mysql
+#    show-sql: true
+#    database-plinatform: org.hibernate.dialect.MySQL5InnoDBDialect
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      #不加此配置，获取不到当前currentsession
+#      hibernate:
+#        current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+      #驼峰下划线转换
+      column-underline: true
+      #逻辑删除配置
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    refresh: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
   redis:
     database: 0
-    host: 127.0.0.1
+    host: 106.15.180.75
     port: 6379
 server:
   port: 8088
   servlet:
-    context-path: /series
+    context-path: /hope
 
 
 gt:
@@ -36,7 +50,7 @@ gt:
         driver-class-name: com.mysql.jdbc.Driver
         username: root
         password: 123456
-        url: jdbc:mysql://localhost:3306/db2?characterEncoding=utf-8&useSSL=false
+        url: jdbc:mysql://106.15.180.75:3306/db2?characterEncoding=utf-8&useSSL=false
       datasource[1]:
         dbName: db2
         driver-class-name: com.mysql.jdbc.Driver
