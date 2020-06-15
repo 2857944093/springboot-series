@@ -40,7 +40,7 @@
         <commons.version>4.1</commons.version>
         <slf4j.version>1.7.25</slf4j.version>
         <lang.version>2.6</lang.version>
-        <collections.version>3.2.1</collections.version>
+        <collections.version>3.2.2</collections.version>
         <beanutils.version>1.9.3</beanutils.version>
         <io.version>2.4</io.version>
         <mybatis.plus.version>3.3.1.tmp</mybatis.plus.version>
